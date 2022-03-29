@@ -20,8 +20,7 @@ class Settings(BaseSettings):
     #LOCAL
     #SQLALCHEMY_DATABASE_URI: Optional[str] = "postgresql://postgres:admin@localhost/businesscase"
     
-    SQLALCHEMY_DATABASE_URI: Optional[str] = "postgres://biyivvmxdupdpz:d4e9e1605bb22e0dc786c3a4bd4e12ea50e88cac2d989988a05969502b8f8b37@ec2-52-73-155-171.compute-1.amazonaws.com:5432/d7qb0gjp00b3ss"
-    
+    SQLALCHEMY_DATABASE_URI: Optional[str] = "postgresql://biyivvmxdupdpz:d4e9e1605bb22e0dc786c3a4bd4e12ea50e88cac2d989988a05969502b8f8b37@ec2-52-73-155-171.compute-1.amazonaws.com/d7qb0gjp00b3ss"
     FIRST_SUPERUSER: EmailStr = "admin@admin.com"
 
     class Config:

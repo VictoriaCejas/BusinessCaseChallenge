@@ -5,7 +5,6 @@ from datetime import date
 import pdb
 from re import I
 from sqlite3 import IntegrityError
-from turtle import pd
 from typing import Any, List
 
 from fastapi import APIRouter, Depends, HTTPException

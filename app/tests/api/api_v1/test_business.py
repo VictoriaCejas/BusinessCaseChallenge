@@ -1,4 +1,3 @@
-from turtle import title
 from typing import List
 from fastapi.testclient import TestClient
 from sqlalchemy.orm import Session

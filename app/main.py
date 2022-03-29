@@ -1,5 +1,4 @@
 from pathlib import Path
-from turtle import st
 
 from fastapi import FastAPI, APIRouter, Request, Depends
 from fastapi.templating import Jinja2Templates
